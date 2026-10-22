@@ -1,0 +1,43 @@
+{
+  "name": "health-cli",
+  "version": "0.1.0",
+  "description": "Terminal health assistant for developers — sit breaks, hydration reminders, eye exercises. Zero dependencies.",
+  "type": "module",
+  "bin": {
+    "health-cli": "./bin/health-cli.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node bin/health-cli.js start",
+    "demo": "node bin/health-cli.js demo",
+    "test": "node --test"
+  },
+  "keywords": [
+    "health",
+    "cli",
+    "developer-tools",
+    "reminders",
+    "pomodoro",
+    "hydration",
+    "sedentary"
+  ],
+  "license": "MIT",
+  "author": "julampmang",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julampmang/health-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/julampmang/health-cli/issues"
+  },
+  "homepage": "https://github.com/julampmang/health-cli#readme"
+}
